@@ -1,0 +1,40 @@
+@import '../../../node_modules/bootstrap/scss/bootstrap';
+@import '../../../node_modules/bootstrap-icons/font/bootstrap-icons';
+
+.navbar {
+  background-color: #000 !important;
+}
+
+.nav-link {
+  color: #fff !important;
+}
+
+#logo {
+  float: left;
+  font-size: 2rem;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+.jumbotron {
+  background-image: asset-url('bg.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+body {
+  background: lightgray;
+  height: 100%;
+  padding: 0;
+}
